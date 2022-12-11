@@ -12067,7 +12067,7 @@ pre .code {
 }
 
 .header {
-  position: relative;
+  position:sticky;
   height: 100vh;
   min-height: 600px;
   display: -webkit-box;
@@ -12275,13 +12275,13 @@ pre .code {
 
 #myVideo{
   color: white;
-  width: 1300px;
-  height: 100%;
   position:relative;
   padding-left: 0;
   padding-right: 0;
   left: 0px;
   display: flex;
+ -webkit-transform: scaleX(1.46); 
+  -moz-transform: scaleY(2);
 }
 
 
